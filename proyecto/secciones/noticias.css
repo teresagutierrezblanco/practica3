@@ -1,0 +1,72 @@
+@import url(../estilos.css);
+#destacada figure{
+    float:left;
+    width: 40%;
+    margin-right: 0;
+    margin-left: 70px;
+}
+#destacada p{
+    float:right;
+    width:50%;
+    margin-right: 50px;
+    margin-left: 0;
+
+}
+#lanzamientos{
+    position: relative;
+    clear: both;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 32px;
+    padding: 10px;
+    background-color: #6A8AB0;
+
+}
+.contenedor{
+    position: relative;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-gap: 10px;
+
+}
+.contenedor >div{
+    background-color: #7694B5;
+    padding: 10px;
+    border: 10px #C1CED9;
+}
+.contenedor p{
+    font-size: 12px;
+    width: 100%;
+
+}
+.contenedor h3{
+    font-size: 16px;
+}
+.fila1{
+    grid-row: 1;
+}
+.fila2{
+    grid-row: 2;
+}
+#l1{
+    grid-column: 1 / 2;
+}
+
+#l2{
+    grid-column: 2 / 3;
+}
+#l3{
+    grid-column: 3 / 4;
+}
+#l4{
+    grid-column: 1 / 2;
+}
+#l5{
+    grid-column: 2 / 3;
+}
+#l6{
+    grid-column: 3 / 4;
+    margin-bottom: 100px;
+}

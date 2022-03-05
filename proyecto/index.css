@@ -1,0 +1,28 @@
+h1 {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    width: 100%;
+    font-size: 72px;
+}
+
+span.sub {
+    font-size: 24px;
+    line-height: 0;
+
+}
+
+span.sub::before {
+    content: '\A';
+    white-space: pre;
+    line-height: 0;
+
+}
+
+figure#foto {
+    position: static;
+    margin-left: 48%;
+    margin-top: 8%;
+
+
+}

@@ -1,0 +1,73 @@
+/*general*/
+body {
+    position: relative;
+    background-image: url("imagenes/color.png");
+    background-size: cover;
+    background-position: top left;
+    font-family: Montserrat, "Arial Black", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #0E3159;
+    height: 1024px;
+
+}
+
+.wrapper {
+
+    min-height: calc(100% - 4rem);
+}
+
+footer {
+    /*position: relative;*/
+    position: absolute;
+    bottom: 0;
+    clear: both;
+    height: 4rem;
+    width: 100%;
+    background-color: #597EA9;
+    font-size: 12px;
+    display: inline-block;
+
+}
+#direccion{
+    float: left;
+    text-align: left;
+
+
+}
+.red {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    height: 25px;
+    width: 25px;
+
+}
+a {
+    font-family: Montserrat, "Arial Black", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #0E3159;;
+}
+
+nav {
+    width: 100%;
+    font-size: 16px;
+    line-height: 13px;
+    position: center;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 6%;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+
+
