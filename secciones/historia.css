@@ -1,0 +1,31 @@
+@import url(../estilos.css);
+p{
+    top:100px;
+    float:right;
+    width: 50%;
+    position: relative;
+    margin-right: 100px;
+}
+aside{
+    position: relative;
+
+
+
+}
+#artistas{
+    position: absolute; left: 40px; top: 70px;
+}
+#eventos{
+    position: absolute; left: 140px; top: 170px
+}
+#hall{
+    position: absolute; left: 40px; top: 270px
+}
+h1{
+    position: relative;
+    clear: both;
+    float: right;
+    top: 80px;
+    font-size: 60px;
+    margin-right: 80px;
+}
